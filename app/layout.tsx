@@ -26,8 +26,6 @@ export default function RootLayout({
     <ClerkProvider appearance={{ variables: { colorPrimary: "#000" } }}>
       <html lang="en">
         <body className={cn("font-IBMPlex antialiased", IBMPlex.variable)}>
-          <SideBar />
-          <MobileNav />
           {children}
         </body>
       </html>

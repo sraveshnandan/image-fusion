@@ -19,7 +19,7 @@ export async function checkoutCredits(transaction: CheckoutTransactionParams) {
           currency: 'usd',
           unit_amount: amount,
           product_data: {
-            name: transaction.plan,
+            name: transaction.plan
           }
         },
         quantity: 1
