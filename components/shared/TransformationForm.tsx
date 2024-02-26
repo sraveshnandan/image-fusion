@@ -135,7 +135,7 @@ const TransformationForm = ({
               _id: data._id,
             },
             userId,
-            path: `/transformations/${data._id}`,
+            path: `/transformations/${data._id!}`,
           });
 
           if (updatedImage) {
