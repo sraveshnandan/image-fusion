@@ -10,6 +10,7 @@ export default authMiddleware({
     "/transformations/add/remove",
     "/transformations/add/recolor",
     "/transformations/add/removeBackground",
+    "/api/webhooks/clerk"
   ],
 });
 
